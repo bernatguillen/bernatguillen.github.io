@@ -1,1 +1,46 @@
+# Site wide configuration
+
+title: Bernat Guillen Pegueroles
+locale: en_US
+description: This is my website.
+logo: bernat-logo.png
+search: true
+url: https://bernatguillen.github.io
+
+# Jekyll configuration
+
 theme: jekyll-theme-minimal
+markdown:    kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+# Site owner
+owner:
+  name: Bernat Guillen Pegueroles
+  avatar: bio-photo.jpg
+  email: bernatp@princeton.edu
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  github: bernatguillen
+  stackexchange: http://stackexchange.com/users/2541467/duronman
+  linkedin: bernatguillen
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
